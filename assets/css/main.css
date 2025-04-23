@@ -2635,7 +2635,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 22%;
+		margin-left: 20%;
 /*		max-width: 54em; */
 /*		padding: 1em 4em 4em 4em; */
 /*		width: calc(100% - 25%); */
@@ -2946,6 +2946,19 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 
+		/* Menú principal */
+
+		#opciones {
+			position: fixed;
+			padding: 0;
+			margin-top: 10px;
+			background: #515f6a;
+			color: red;
+			height: 40px;
+			width: 1300px;
+			box-sizing: border-box;
+		}
+
 	}
 
 /* Large */
@@ -3138,12 +3151,14 @@ input, select, textarea {
 #opciones {
 	position: fixed;
 	padding: 0;
+	margin-top: 10px;
 	background: #515f6a;
 	color: white;
 	height: 40px;
 	width: 1460px;
 	box-sizing: border-box;
 /*	width: 100%;
+	width: 1460px;
 	margin-right: 5%;
 	margin-right: 5%;
 	padding: 0 1em;
@@ -3203,4 +3218,8 @@ nav ul li a:hover {
 .video-der {
 	align-self: flex-end;
 	margin-top: 30px;
+}
+
+#opciones, #beneficios, #demo, #dinamica, #implementos, #testimonios {
+	margin-left: 20px;
 }
